@@ -34,7 +34,7 @@ class _RoundListState extends State<RoundList> {
           size: 30.0,
         ),
         onTap: () async {
-          String url = "https://samashti.co.in/" + data["round_file"];
+          String url = "" + data["round_file"];
           if (await canLaunch(url)) {
             await launch(url);
           } else {

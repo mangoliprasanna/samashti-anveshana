@@ -19,7 +19,7 @@ class _AnveshanaState extends State<Anveshana> {
   @override
   void initState() { 
     super.initState();
-    http.get("http://samashti.co.in/api/v2/events/all.php").then((http.Response response) {
+    http.get("").then((http.Response response) {
       var jsonResponse = jsonDecode(response.body);
       if(jsonResponse["action"].toString().compareTo("success") == 0){
         List<Widget> allEvents = [];

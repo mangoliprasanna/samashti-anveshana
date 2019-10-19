@@ -102,7 +102,7 @@ class _FeedState extends State<Feed> {
         });
       }
       http
-          .get('https://samashti.co.in/api/v3/feeds/read.php?user_chest=' +
+          .get('' +
               chestNo)
           .then((http.Response response) {
         var jsonResponse = jsonDecode(response.body);

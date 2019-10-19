@@ -272,7 +272,7 @@ class _EventDetailsState extends State<EventDetails> {
               },
             ),
             Rules(
-                "https://samashti.co.in/api/v2/events/event-desc.php?event_token=" +
+                "" +
                     this._currentEvent.event_token),
           ],
         ),

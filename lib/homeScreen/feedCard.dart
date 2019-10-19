@@ -25,7 +25,7 @@ class _FeedCardState extends State<FeedCard> {
 
     videoOrImage =  FadeInImage(
               image: NetworkImage(
-                  "https://samashti.co.in/" + currentFeed.feed_img),
+                  "" + currentFeed.feed_img),
               placeholder: AssetImage("assets/l_logo.png"),
             );  
   }

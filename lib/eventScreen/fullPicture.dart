@@ -37,7 +37,7 @@ class FullPicture extends StatelessWidget {
         color: Colors.black,
         child: Center(
           child: PhotoView(
-              imageProvider: NetworkImage("https://samashti.co.in/" + imagePath),
+              imageProvider: NetworkImage("" + imagePath),
             ),
         ),
       ),

@@ -115,7 +115,7 @@ class _LoginState extends State<Login> {
               });
               http
                   .get(
-                      "http://samashti.co.in/api/v2/users/read.php?user_email=" +
+                      "" +
                           emailController.text +
                           "&user_password=" +
                           passwordController.text +

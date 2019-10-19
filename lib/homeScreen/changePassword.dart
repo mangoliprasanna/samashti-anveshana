@@ -88,7 +88,7 @@ class _ChangePasswordState extends State<ChangePassword> {
               ));
               return;
             }
-            http.get("https://samashti.co.in/api/v2/users/update.php?user_email="+_currentUser.user_email+"&user_chest="+_currentUser.user_chest+"&n_pass=" + newPassController.text + "&cu_pass=" + currentPassController.text).then((http.Response response) {
+            http.get(""+_currentUser.user_email+"&user_chest="+_currentUser.user_chest+"&n_pass=" + newPassController.text + "&cu_pass=" + currentPassController.text).then((http.Response response) {
               var jsonResponse = jsonDecode(response.body);
               if(jsonResponse["action"].toString().compareTo("failed") == 0){
                 Scaffold.of(context).showSnackBar(SnackBar(

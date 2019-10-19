@@ -37,7 +37,7 @@ class _PhotoGalleryState extends State<PhotoGallery> {
             },
             child: FadeInImage(
               image: NetworkImage(
-                  "https://samashti.co.in/" + data["picture_image"]),
+                  "" + data["picture_image"]),
               placeholder: AssetImage("assets/placeholder.png"),
             ),
           ),

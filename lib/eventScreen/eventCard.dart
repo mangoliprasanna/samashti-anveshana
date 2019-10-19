@@ -24,7 +24,7 @@ class EventCard extends StatelessWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
             image:  NetworkImage(
-                'https://samashti.co.in/' + currentEvent.event_image),
+                '' + currentEvent.event_image),
             fit: BoxFit.fill,
             alignment: Alignment.topCenter,
           ),

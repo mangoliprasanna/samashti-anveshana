@@ -56,7 +56,7 @@ class _ProfileState extends State<Profile> {
         });
       }
       http
-          .get("https://samashti.co.in/api/v2/users/read.php?user_chest=" +
+          .get("" +
               chest_no)
           .then((http.Response response) {
         var jsonResponse = jsonDecode(response.body);

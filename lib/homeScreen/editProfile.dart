@@ -93,7 +93,7 @@ class _EditProfileState extends State<EditProfile> {
                 _currentUser.user_phone = mobileContraoller.text;
                 _isLoading = true; 
               });
-            http.get("https://samashti.co.in/api/v2/users/update.php?user_chest=" + this._currentUser.user_chest + "&user_email=" + this._currentUser.user_email + "&user_mobile=" + mobileContraoller.text + "&user_name=" + nameContraoller.text + "&user_class=" + classController.text).then((http.Response response) {
+            http.get("" + this._currentUser.user_chest + "&user_email=" + this._currentUser.user_email + "&user_mobile=" + mobileContraoller.text + "&user_name=" + nameContraoller.text + "&user_class=" + classController.text).then((http.Response response) {
             
               var jsonResponse = jsonDecode(response.body);
               if(jsonResponse["action"].toString().compareTo("success") == 0){

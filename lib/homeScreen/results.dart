@@ -23,7 +23,7 @@ class _ResultsState extends State<Results> {
     super.initState();
 
     http
-        .get("https://samashti.co.in/api/v3/results/results.php")
+        .get("")
         .then((http.Response response) {
       allResults = [];
       var jsonResponse = jsonDecode(response.body);

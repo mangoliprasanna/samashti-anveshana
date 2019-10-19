@@ -143,12 +143,7 @@ class _RegisterState extends State<Register> {
               _isLoading = true;
             });
 
-            String computeUrl = "http://samashti.co.in/api/v2/users/create.php";
-            computeUrl += "?user_email=" + emailController.text;
-            computeUrl += "&user_name=" + nameController.text;
-            computeUrl += "&user_mobile=" + mobileController.text;
-            computeUrl += "&user_password=" + passwordController.text;
-            computeUrl += "&user_device=" + deviceToken;
+            String computeUrl = "";
             
             http.get(computeUrl).then((http.Response response){
               print(response.body);

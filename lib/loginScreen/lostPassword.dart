@@ -63,7 +63,7 @@ class _LostPasswordState extends State<LostPassword> {
             });
             http
                 .get(
-                    "https://samashti.co.in/api/v2/users/update.php?reset_email=" +
+                    "" +
                         emailController.text)
                 .then((http.Response response) {
               var jsonResponse = jsonDecode(response.body);
