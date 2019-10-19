@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "299730706947",
+    "firebase_url": "https://samashti-the-student-council.firebaseio.com",
+    "project_id": "samashti-the-student-council",
+    "storage_bucket": "samashti-the-student-council.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299730706947:android:bdb9544ab3f4c79e",
+        "android_client_info": {
+          "package_name": "in.co.samashti.samashti_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299730706947-rncgquerse69varoao0lv1sdjbct6s0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbtrgbMA437BR8G9n5pbBWhhd__1y2_I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299730706947-rncgquerse69varoao0lv1sdjbct6s0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
