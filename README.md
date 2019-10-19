@@ -16,6 +16,9 @@ Following are few features that app provides for students.
 * Profile managment for user allowing them to update basic information.
 * Registration for events with single click.
 
+![alt text](screenshots/0.jpeg "Samashti")
+![alt text](screenshots/1.jpeg "Samashti")
+
 ***
 ### About Samashti
 Samashti - The Student Council is the student governing body of Jain University. It is the culmination of management, cultural and tech enthusiasts. Our motto is to ‘Conquer from within’. We provide a hub for every student of the college who wishes to explore knowledge outside the books. We also provide a magnificent platform for individuals to showcase their talents and help them grow to become the best version of themselves. Samashti is the driving force behind organizing ‘Anveshana’ - an intra college fest for freshers, ‘Tarusamskruti’ - a national level intercollegiate fest and ‘Pulse’ – an exclusive national level dance fest.
